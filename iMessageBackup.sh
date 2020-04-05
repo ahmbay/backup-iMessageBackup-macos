@@ -1,8 +1,8 @@
 # This script takes in input a iMessage account input and backs its conversations up as txt files.
 # It also saves its pictures that are cached localy
-#Parameter is a iMessage account (email or phone number i.e. +33616.... )
+#Parameter is a iMessage account (email or phone number i.e. +90212.... )
 if [ $# -lt 1 ]; then
-echo "Enter a iMessage account (email of phone number i.e +33616.....) "
+echo "Enter a iMessage account (email of phone number i.e +90212.....) "
 fi
 login=$1
 #Retrieve the text messages
